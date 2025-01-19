@@ -34,4 +34,5 @@ In addition, this package does not depend on other modules or packages that are 
 
 %files
 %license LICENSE
-#{python3_sitelib}/%{pypi_name}*/
+%{python3_sitelib}/%{pypi_name}-%{version}.dist-info
+%{python3_sitelib}/darkdetect/
